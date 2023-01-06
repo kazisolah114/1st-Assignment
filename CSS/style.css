@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* Banner Section */
+.banner-sect {
+    background-image: url('../Images/banner3.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-sect .banner-content {
+    display: flex;
+    gap: 60%;
+    padding-top: 17%;
+}
+.banner-sect .banner-content .banner-cont-left{}
+.banner-sect .banner-content .banner-cont-right {
+    text-align: right;
+    margin-right: 50px;
+}
+.banner-sect .banner-content .banner-cont-right h1 {
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.banner-sect .banner-content .banner-cont-right p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+.banner-sect .banner-content .banner-cont-right button {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: #005FAC;
+    cursor: pointer;
+}
+
+
+/* About section */
+.about-sect {
+    padding: 60px 0;
+}
+.about-sect .about-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.about-sect .about-content .about-img{}
+.about-sect .about-content .about-img img{}
+.about-sect .about-content .about-text {
+    width: 35%;
+}
+.about-sect .about-content .about-text h2 {
+    font-size: 34px;
+}
+.about-sect .about-content .about-text p {
+    color: #444343;
+    margin: 20px 0;
+}
+.about-sect .about-content .about-text ul{}
+.about-sect .about-content .about-text ul li {
+    list-style: none;
+    margin-bottom: 8px;
+    color: #444343;
+}
+.about-sect .about-content .about-text ul li i {
+    color: #16D887;
+    margin-right: 6px;
+}
+
+
+/* plans section */
+.plans-sect {
+    padding: 60px 0;
+}
+.plans-sect h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.plans-sect .plans {
+    display: flex;
+    justify-content: space-between;
+}
+.plans-sect .plan {
+    text-align: center;
+}
+.plans-sect .plan img{}
+.plans-sect .plan h3 {
+    margin: 15px 0;
+}
+.plans-sect .plan p {
+    color: #737272;
+}
+
+
+/* Call now */
+.call-now{
+    padding: 60px;
+}
+.call-now .callnow-cont {
+    background-image: url('../IMages/watch.png');
+    padding: 84px 0;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    padding-left: 50px;
+}
+.call-now .callnow-cont::after{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('../IMages/gradient1.png');
+    background-repeat: no-repeat;
+    z-index: -1;
+    
+}
+.call-now .callnow-cont h2 {
+    color: #FFF;
+    width: 40%;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.call-now .callnow-cont button{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: #005FAC;
+    cursor: pointer;
+}
+
+
+/* Footer section */
+.footer-sect {
+    padding: 60px 0;
+    background: #151414;
+    color: #fff;
+}
+.footer-sect .footer-cont {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-sect .footer-cont .footer-left {
+    width: 50%;
+}
+.footer-sect .footer-cont .footer-left h2 {
+    font-size: 28px;
+}
+.footer-sect .footer-cont .footer-left p {
+    margin: 15px 0;
+    font-size: 13px;
+    width: 65%;
+}
+.footer-sect .footer-cont .footer-left a {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+}
+.footer-sect .footer-cont .footer-left ul {
+    display: flex;
+    gap: 10px;
+}
+.footer-sect .footer-cont .footer-left ul li {
+    list-style: none;
+}
+.footer-sect .footer-cont .footer-left ul li a {
+    
+}
+.footer-sect .footer-cont .footer-left ul li img{
+    width: 20px;
+}
+.footer-sect .footer-cont .footer-right{}
+.footer-sect .footer-cont .footer-right h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.footer-sect .footer-cont .footer-right form{}
+.footer-sect .footer-cont .footer-right form input[type="email"] {
+    display: block;
+    height: 40px;
+    width: 210px;
+    background: transparent;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 0 10px;
+    color: #fff;
+    outline: none;
+}
+.footer-sect .footer-cont .footer-right form input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: #005FAC;
+    cursor: pointer;
+}
