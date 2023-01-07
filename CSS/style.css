@@ -105,7 +105,7 @@
 
 /* FunFacts section */
 .funfacts {
-    padding: 80px 0;
+    padding: 60px 0;
     
 }
 .funfacts .funfacts-head {
@@ -157,7 +157,6 @@
     padding: 60px;
 }
 .call-now .callnow-cont {
-    background: red;
     background-image: url('../Images/watch.png');
     padding: 84px 0;
     background-repeat: no-repeat;
